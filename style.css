@@ -5,7 +5,7 @@ p { clear: both; }
 .submit { margin-top: 1em; }
 em { font-weight: bold; padding-right: 1em; vertical-align: top; }
 body{
-	background:url(images/bg.png) repeat;
+	background:url(assets/background.jpg) repeat;
 }
 
 #main{
@@ -22,7 +22,7 @@ body{
 #header{
 	width:500px;
 	height:81px;
-	background:url(images/header.jpg);
+	background:url(assets/background.jpg);
 	float:left;
 }
 
