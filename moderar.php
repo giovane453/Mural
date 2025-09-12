@@ -46,7 +46,7 @@ if($editar_id){
 
 <?php if($recado_editar): ?>
 <div id="formulario_mural">
-<form method="post">
+<form id= "mural"method="post">
     <label>Nome:</label>
     <input type="text" name="nome" value="<?php echo htmlspecialchars($recado_editar['nome']); ?>"/><br/>
     <label>Email:</label>
@@ -83,3 +83,4 @@ if(mysqli_num_rows($seleciona) <= 0){
 </div>
 </body>
 </html>
+
