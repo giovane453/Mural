@@ -64,7 +64,7 @@ if(isset($_POST['editar'])) {
     $descricao = mysqli_real_escape_string($conexao, $_POST['descricao']);
     $preco = floatval($_POST['preco']);
 
-    $update_sql = "UPDATE recados SET nome='$nome', descricao='$descricao', preco=$preco WHERE id=$id";
+    $update_sql = "UPDATE recados2 SET nome='$nome', descricao='$descricao', preco=$preco WHERE id=$id";
     mysqli_query($conexao, $update_sql) or die("Erro ao atualizar: " . mysqli_error($conexao));
     header("Location: moderar.php");
     exit;
